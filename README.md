@@ -1,4 +1,4 @@
-# Wireless-Corne-Xiao-ble-Zmk-Cofig-CHIPPY
+# Wireless-Corne-Xiao-ble-Zmk-Config-CHIPPY
 원본 https://github.com/JonMuller/gerbers/tree/main/corne-choc-xiao
 
 ![image](https://github.com/OneCrazyman/zmk-config-corne-xiao-ble/assets/98089603/57fc906f-5b65-4bd2-b4d8-0308c08b06be)
