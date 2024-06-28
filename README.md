@@ -1,8 +1,8 @@
 # Wireless-Corne-Xiao-ble-Zmk-Config-CHIPPY
 원본 https://github.com/JonMuller/gerbers/tree/main/corne-choc-xiao
 
-![image](https://github.com/OneCrazyman/zmk-config-corne-xiao-ble/assets/98089603/57fc906f-5b65-4bd2-b4d8-0308c08b06be)
-![image](https://github.com/OneCrazyman/zmk-config-corne-xiao-ble/assets/98089603/d1bb61b5-abd4-4766-9269-59c22fa4c7e6)
+<img src="https://github.com/OneCrazyman/zmk-config-corne-xiao-ble/assets/98089603/57fc906f-5b65-4bd2-b4d8-0308c08b06be" width="70%" />
+<img src="https://github.com/OneCrazyman/zmk-config-corne-xiao-ble/assets/98089603/d1bb61b5-abd4-4766-9269-59c22fa4c7e6" width="70%" />
 
 ### 주요 디렉토리
 ```
