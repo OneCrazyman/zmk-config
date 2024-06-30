@@ -7,6 +7,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 #include "chippy.h"
+#include <behaviors.dtsi>
+#include <behaviors/mouse_key_press.dtsi>
 
 / {
 	chosen {
