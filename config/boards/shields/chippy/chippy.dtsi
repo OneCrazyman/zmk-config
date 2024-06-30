@@ -5,7 +5,6 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <"custom_config.h">
 
 #include <behaviors.dtsi>
 #include <behaviors/mouse_key_press.dtsi>
