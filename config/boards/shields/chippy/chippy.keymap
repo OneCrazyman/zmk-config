@@ -9,6 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#define U_TAPPING_TERM 200
+#include "miryoku_mousekeys.h"
+#include "miryoku_behaviors.h"
+// Include Code
+#include "miryoku_mousekeys.dtsi"
+#include "miryoku_behaviors.dtsi"
+
+
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
