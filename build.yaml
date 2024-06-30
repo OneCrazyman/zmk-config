@@ -20,7 +20,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: chippy_left
-  - board: seeeduino_xiao_ble
-    shield: chippy_right
-  - board: seeeduino_xiao_ble
-    shield: settings_reset  
+  # - board: seeeduino_xiao_ble
+  #   shield: chippy_right
+  # - board: seeeduino_xiao_ble
+  #   shield: settings_reset  
