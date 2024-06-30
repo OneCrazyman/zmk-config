@@ -44,7 +44,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        
+
 		sm: shift_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "SHIFT_MODS";
@@ -100,7 +100,7 @@
 		danger_layer {
 
                         bindings = <
-   &bootloader  &kp AT &kp HASH &kp PAUSE_BREAK &kp SLCK              &kp C_VOL_UP &hm LC(V) LC(C)  &hello &kp LC(LA(DEL)) &bootloader 
+   &bootloader  &kp AT &kp HASH &kp PAUSE_BREAK &kp SLCK              &kp C_VOL_UP &hm LC(V) LC(C)  &kp A &kp LC(LA(DEL)) &bootloader 
    &trans   &trans &kp LC(LSHFT)  &mt LSHFT UP   &mt LCTRL PSCRN   &kp C_VOL_DN &trans &trans        &kp UP &kp SEMI 
    &kp LNLCK   &trans &kp LEFT &kp DOWN &kp RIGHT              &kp C_MUTE &trans  &kp LEFT        &kp DOWN &kp RIGHT 
         	     &kp LG(Z) &kp LG(X)   &kp LG(C)   &kp LC(LA(W))   &kp LC(LA(P))    &kp LC(LA(R))
