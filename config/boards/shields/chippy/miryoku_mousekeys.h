@@ -11,7 +11,7 @@
 #define U_MS_L &kp KP_N4
 #define U_MS_R &kp KP_N6
 #define U_MS_U &kp KP_N8
-#define U_WH_D U_NU
-#define U_WH_L U_NU
-#define U_WH_R U_NU
-#define U_WH_U U_NU
+#define U_WH_D &none
+#define U_WH_L &none
+#define U_WH_R &none
+#define U_WH_U &none
