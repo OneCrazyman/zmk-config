@@ -2,10 +2,10 @@
 # https://github.com/manna-harbour/miryoku
 
 name: 'Build Example mousekeyspr'
-on: workflow_dispatch
+on: push
 jobs:
   build:
-    uses: ./.github/workflows/build.yml
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
