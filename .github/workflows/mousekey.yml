@@ -5,7 +5,7 @@ name: 'Build Example mousekeyspr'
 on: workflow_dispatch
 jobs:
   build:
-    uses: ./.github/workflows/main.yml
+    uses: ./.github/workflows/build.yml
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
