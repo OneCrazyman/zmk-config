@@ -32,43 +32,9 @@
 	continue-list = <UNDERSCORE MINUS BACKSPACE DELETE HOME END LEFT RIGHT>;
 };
 
-&kscan0 {
-	debounce-period = <20>;
-	};
-
-/ {
-	behaviors {
-
-        bh: layer_taps {
-                compatible = "zmk,behavior-hold-tap";
-                label = "Layer-Tap";
-                #binding-cells = <2>;
-                tapping_term_ms = <215>;
-                flavor = "tap-preferred";
-		bindings = <&mo>, <&kp>;
-        };
-
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <170>;
-            quick_tap_ms = <0>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-
-        sm: shift_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "SHIFT_MODS";
-            #binding-cells = <2>;
-            tapping-term-ms = <170>;
-            quick_tap_ms = <0>;
-            flavor = "hold-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-     };
-   };
+//&kscan0 {
+//	debounce-period = <20>;
+//	};
 
 / {
         keymap {
@@ -89,7 +55,7 @@ U_LT(U_LOWER,ESC)  &kp Q              &kp W              &kp E              &kp 
                 };
                 lower_layer {
                         bindings = <
-&trans             &none              &none              &none              &none              &none              &kp C_SLEEP              &kp C_POWER              &kp K_SLEEP              &kp K_POWER              &none              &none
+&trans             &out OUT_TOG       &none              &none              &none              &none              &kp C_SLEEP              &kp C_POWER              &kp K_SLEEP              &kp K_POWER              &none              &none
 &bt BT_CLR         &bt BT_SEL 0       &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3       &none              &none              &none              &none              &none              &none              &none
 &none              &none              &none              &none              &sys_reset         &bootloader        &bootloader        &sys_reset         &none              &none              &none              &none
                                                          &none              &none              &none              &none              &none              &none
