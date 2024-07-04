@@ -1,21 +1,24 @@
 / {
     macros {
         compatible = "zmk,behaviors-macro";
-        #binding-cells = <0>;
         
         ctrl_kp_n4: ctrl_kp_n4 {
+            #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp KP_N4>;
         };
         
         ctrl_kp_n2: ctrl_kp_n2 {
+            #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp KP_N2>;
         };
         
         ctrl_kp_n8: ctrl_kp_n8 {
+            #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp KP_N8>;
         };
         
         ctrl_kp_n6: ctrl_kp_n6 {
+            #binding-cells = <0>;
             bindings = <&kp LCTRL>, <&kp KP_N6>;
         };
     };
