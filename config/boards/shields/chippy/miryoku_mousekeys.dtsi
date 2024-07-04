@@ -1,21 +1,12 @@
 / {
-    macros {
-        compatible = "zmk,macro";
-        
-        ctrl_kp_n4: ctrl_kp_n4 {
-            bindings = <&kp LCTRL>, <&kp KP_N4>;
+    behaviors {
+        msl: msl {
+            compatible = "zmk,behavior";
+            bindings = <&kp LCTRL &kp KP_N4>;
         };
-        
-        ctrl_kp_n2: ctrl_kp_n2 {
-            bindings = <&kp LCTRL>, <&kp KP_N2>;
-        };
-        
-        ctrl_kp_n8: ctrl_kp_n8 {
-            bindings = <&kp LCTRL>, <&kp KP_N8>;
-        };
-        
-        ctrl_kp_n6: ctrl_kp_n6 {
-            bindings = <&kp LCTRL>, <&kp KP_N6>;
+        msd: msd {
+            compatible = "zmk,behavior";
+            bindings = <&kp LCTRL &kp KP_N2>;
         };
     };
 };
