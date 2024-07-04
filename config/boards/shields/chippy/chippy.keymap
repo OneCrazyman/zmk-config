@@ -18,6 +18,8 @@
 #include "miryoku_behaviors.dtsi"
 #if defined (MIRYOKU_KLUDGE_MOUSEKEYSPR)
   #include "miryoku_kludge_mousekeyspr.dtsi"
+#else
+  #include "miryoku_mousekey.dtsi"
 #endif
 
 #define U_DEFAULT 0

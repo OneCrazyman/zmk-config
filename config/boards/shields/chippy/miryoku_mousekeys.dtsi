@@ -1,0 +1,21 @@
+/ {
+    macros {
+        compatible = "zmk,macros";
+        
+        ctrl_kp_n4: ctrl_kp_n4_macro {
+            bindings = <&kp LCTRL>, <&kp KP_N4>;
+        };
+        
+        ctrl_kp_n2: ctrl_kp_n2_macro {
+            bindings = <&kp LCTRL>, <&kp KP_N2>;
+        };
+        
+        ctrl_kp_n8: ctrl_kp_n8_macro {
+            bindings = <&kp LCTRL>, <&kp KP_N8>;
+        };
+        
+        ctrl_kp_n6: ctrl_kp_n6_macro {
+            bindings = <&kp LCTRL>, <&kp KP_N6>;
+        };
+    };
+};
