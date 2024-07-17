@@ -51,7 +51,7 @@
 //             | GUI | LWR | ENT |   | SPC | RSE  | ALT |
                         bindings = <
 U_LT(U_LOWER,ESC)  &kp Q              &kp W              &kp E              &kp R              &kp T              &kp Y              &kp U              &kp I              &kp O              &kp P              U_LT(U_LOWER, ESC)     
-&kp LANG1          U_MT(LGUI, A)      U_MT(LCTRL, S)     U_MT(LALT, D)      U_MT(LSHFT, F)     &kp G              &kp H              U_MT(LSHFT, J)     U_MT(LALT, K)      U_MT(LCTRL, L)     U_MT(LGUI, SEMI)   &kp LANG1
+&kp CAPS           U_MT(LGUI, A)      U_MT(LCTRL, S)     U_MT(LALT, D)      U_MT(LSHFT, F)     &kp G              &kp H              U_MT(LSHFT, J)     U_MT(LALT, K)      U_MT(LCTRL, L)     U_MT(LGUI, SEMI)   &kp LANG1
 &kp LSHFT          &kp Z              &kp X              &kp C              &kp V              &kp B              &kp N              &kp M              &kp COMMA          &kp DOT            &kp SLASH          &kp LSHFT
                                                          U_LT(U_MEDIA,ESC) U_LT(U_NAV,SPACE) U_LT(U_MOUSE,TAB) U_LT(U_SYM,RET)   U_LT(U_NUM,BSPC)  U_LT(U_FUN,DEL)
                         >;
